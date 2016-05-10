@@ -9,4 +9,110 @@ Template: powen-lite
 /*page-template-page-template page-template-full-width page-template-page-templatefull-width-php logged-in admin-bar siteorigin-panels siteorigin-panels-home gecko windows powen-single-author masthead-fixed customize-support*/
 
 
+.powen-main-nav {
+    display: none;
+}
 
+body.home.page.page-id-79.page-template {
+/*
+    background-image: url("http://localhost/wp-gina/wp-content/uploads/2016/04/nutrilon-background.jpg");
+    background-size: cover;
+*/
+    background-color: white;
+}
+
+#navigation.powen-nav.clear {
+  margin-bottom: -20px;
+}
+
+#masthead.site-header {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.widget-title {
+  margin-bottom: -20px;
+}
+
+.widget-area li {
+  margin-bottom: -15px;
+}
+
+#site-info.site-info {
+  background-color: #000000;
+}
+
+.powen-footer-site-info {
+  color: #fff;
+}
+
+.site-info a {
+  color: #ffffff;
+}
+
+.entry-footer {
+  margin-bottom: -20px;
+}
+
+p {
+  margin-top: -15px;
+}
+
+.entry-content {
+  margin-bottom: -20px;
+}
+
+#recent-posts-2.widget.widget_recent_entries {
+  padding-bottom: 20px;
+}
+
+.site-info a:hover {
+  color: #e6b800;
+}
+
+.powen-slider-description {
+  padding-top: 10px;
+}
+
+.powen-slide:hover .powen-slider-content {
+  margin-bottom: -20px;
+}
+
+.post-79 #page-title,
+.post-79 .entry-header {
+    display: none;
+}
+
+.article-hentry {
+  background-color: transparent;
+}
+
+.panel-grid-cell .panel-last-child {
+  margin-top: -52px;
+  margin-left: 0px;
+  background-color: transparent;
+}
+
+/*#SLIDER*/
+
+#sc_our_team.grid_circles .sc_team_member .sc_team_member_inner .sc_team_member_name,
+#sc_our_team.grid_circles .sc_team_member .sc_team_member_inner .sc_team_member_jobtitle {
+    display: none;
+}
+
+#sc_our_team .sc_team_member .sc_team_more img {
+  margin-top: -27px;
+}
+
+.panel-grid-cell .widget-title {
+  margin-bottom: 20px;
+}
+
+#pg-79-2.panel-grid .textwidget {
+    margin-left: 48px;
+}
+
+/*
+article#post-79.post-79.page.type-page.status-publish.hentry .article-hentry {
+    display: none
+};*/
