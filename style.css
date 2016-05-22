@@ -9,24 +9,79 @@ Template: powen-lite
 /*page-template-page-template page-template-full-width page-template-page-templatefull-width-php logged-in admin-bar siteorigin-panels siteorigin-panels-home gecko windows powen-single-author masthead-fixed customize-support*/
 
 .powen-main-nav {
-    display: none;
+  display: none;
 }
 
-body.home.page.page-id-79.page-template {
+header#masthead.site-header {
+/*  background-image: url("http://localhost/wp-gina/wp-content/uploads/2016/05/media_militia-polygons-043.jpg");*/
+  background-color: #000;
 /*
-    background-image: url("http://localhost/wp-gina/wp-content/uploads/2016/04/nutrilon-background.jpg");
-    background-size: cover;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 */
-    background-color: white;
 }
 
-#navigation.powen-nav.clear {
-  margin-bottom: -20px;
+  header#masthead.site-header {
+  background-color: #000;
+/*
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+*/
 }
 
-#masthead.site-header {
-  background-color: #ffffff;
-  margin-bottom: 30px;
+/*
+.slick-list.draggable {
+
+}
+*/
+
+/*
+.site-branding {
+  display: none;
+}
+*/
+
+i.fa {
+    color: white;
+}
+
+i.fa:hover {
+    color: #e6b800;
+}
+
+.powen-search-box-top input[type="search"] {
+    border-radius: 20px;
+}
+
+.powen-search-box-top input[type="search"] i.fa.fa-search {
+  color: black;
+}
+
+/*LOGO*/
+.widget {
+    background-color: transparent;
+}
+
+/*STANDARD-BOX*/
+.decoration {
+    
+}
+
+.panel-grid-cell .panel-last-child {
+  margin-top: -52px;
+/*  margin-left: 0px;*/
+  background-color: transparent;
+  padding-bottom: 50px;
+}
+
+.entry-footer {
+  display: none;
+}
+
+.entry-title {
+  display: none;
 }
 
 .widget-title {
@@ -37,63 +92,53 @@ body.home.page.page-id-79.page-template {
   margin-bottom: -15px;
 }
 
-#site-info.site-info {
-  background-color: #000000;
+h2.entry-title {
+  display: none;
 }
 
-.powen-footer-site-info {
-  color: #fff;
+#panel-120-0-0-0.so-panel.widget .siteorigin-widget-tinymce.textwidget {
+  margin-top: -30px;
 }
 
-.site-info a {
+#pg-120-1.panel-grid {
+  margin-top: -30px;
+  margin-bottom: -20px;
+}
+
+.article-hentry {
+  background-color: transparent;
+/*  margin-top: -30px;*/
+}
+
+header.entry-header {
+  display: none;
+}
+
+.pull-request-integrations-body {
   color: #ffffff;
+  font-size: 16px;
+  margin-top: 40px;
 }
 
-.entry-footer {
-  margin-bottom: -20px;
-}
 
-p {
-  margin-top: -15px;
+/*#SLIDER*/
+/*
+.slick-slider {
+  padding-top: 60px;
 }
-
-.entry-content {
-  margin-bottom: -20px;
-}
-
-#recent-posts-2.widget.widget_recent_entries {
-  padding-bottom: 20px;
-}
-
-.site-info a:hover {
-  color: #e6b800;
-}
+*/
 
 .powen-slider-description {
   padding-top: 10px;
 }
 
+/*
 .powen-slide:hover .powen-slider-content {
   margin-bottom: -20px;
 }
+*/
 
-.post-79 #page-title,
-.post-79 .entry-header {
-    display: none;
-}
-
-.article-hentry {
-  background-color: transparent;
-}
-
-.panel-grid-cell .panel-last-child {
-  margin-top: -52px;
-  margin-left: 0px;
-  background-color: transparent;
-}
-
-/*#SLIDER*/
-
+/*OURTEAM*/
 #sc_our_team.grid_circles .sc_team_member .sc_team_member_inner .sc_team_member_name,
 #sc_our_team.grid_circles .sc_team_member .sc_team_member_inner .sc_team_member_jobtitle {
     display: none;
@@ -115,3 +160,44 @@ p {
 article#post-79.post-79.page.type-page.status-publish.hentry .article-hentry {
     display: none
 };*/
+
+/*FOOTER*/
+.first.quarter.left.widget-area h3.widget-title,
+.second.quarter.widget-area h3.widget-title,
+.fourth.quarter.right.widget-area h3.widget-title {
+  padding-bottom: 20px;
+}
+
+.first.quarter.left.widget-area p {
+    padding-top: 0.625rem;
+}
+
+#site-info.site-info {
+  background-color: #000000;
+}
+
+.powen-footer-site-info {
+  color: #fff;
+}
+
+.site-info a {
+  color: #ffffff;
+}
+
+.entry-footer {
+  margin-bottom: -20px;
+}
+
+/*FONT AWESOME*/
+
+i{
+display: inline-block;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+color: firebrick;
+font-size: 3em;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
