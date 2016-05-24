@@ -203,6 +203,11 @@ line-height: 1;
 }
 
 /*CONTACT*/
+#panel-2-0-0-0.so-panel h3.widget-title {
+    font-size: 2.5em;
+    font-family: "Roboto", sans-serif;
+}
+
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"], 
 .wpcf7 textarea {
@@ -219,6 +224,27 @@ line-height: 1;
     border-bottom: 1px solid firebrick;
 }
 
-.column-left{ float: left; width: 33%; }
-.column-right{ float: right; width: 33%; }
-.column-center{ display: inline-block; width: 33%; } 
+.column-left {
+    float: left; width: 33%;
+}
+
+.column-right {
+    float: right; width: 33%;
+}
+
+.column-center {
+    display: inline-block; width: 33%;
+}
+
+.wpcf7-form {
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+
+#panel-2-1-0-0.so-panel i {
+    font-size: 1.25em;
+}
+
+#panel-2-1-0-0.so-panel p {
+    font-size: 1.25em;
+}
