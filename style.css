@@ -201,3 +201,24 @@ line-height: 1;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
+
+/*CONTACT*/
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"], 
+.wpcf7 textarea {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    max-width: 90%;
+}
+
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="email"]:focus, 
+.wpcf7 textarea:focus {
+    border-bottom: 1px solid firebrick;
+}
+
+.column-left{ float: left; width: 33%; }
+.column-right{ float: right; width: 33%; }
+.column-center{ display: inline-block; width: 33%; } 
