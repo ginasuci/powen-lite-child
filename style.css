@@ -13,13 +13,7 @@ Template: powen-lite
 }
 
 header#masthead.site-header {
-/*  background-image: url("http://localhost/wp-gina/wp-content/uploads/2016/05/media_militia-polygons-043.jpg");*/
   background-color: #000;
-/*
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-*/
 }
 
   header#masthead.site-header {
@@ -31,20 +25,8 @@ header#masthead.site-header {
 */
 }
 
-/*
-.slick-list.draggable {
-
-}
-*/
-
-/*
-.site-branding {
-  display: none;
-}
-*/
-
 i.fa {
-    color: white;
+    color: #BCA9A9;
 }
 
 i.fa:hover {
@@ -53,10 +35,7 @@ i.fa:hover {
 
 .powen-search-box-top input[type="search"] {
     border-radius: 20px;
-}
-
-.powen-search-box-top input[type="search"] i.fa.fa-search {
-  color: black;
+    box-shadow: none;
 }
 
 /*LOGO*/
@@ -215,12 +194,37 @@ line-height: 1;
     border-left: none;
     border-right: none;
     max-width: 90%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+}
+
+.wpcf7 textarea {
+    max-width: 97.5%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    color: rgba(0, 0, 0, 0.53);
+    text-indent: 1rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    color: black
+}
+
+textarea {
+    padding: 8px 0px 0px;
+    line-height: 1.1;
 }
 
 .wpcf7 input[type="text"]:focus,
 .wpcf7 input[type="email"]:focus, 
 .wpcf7 textarea:focus {
-    border-bottom: 1px solid firebrick;
+    border-bottom: solid firebrick;
 }
 
 .column-left {
