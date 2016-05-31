@@ -43,9 +43,9 @@ i.fa:hover {
     background-color: transparent;
 }
 
-/*STANDARD-BOX*/
-.decoration {
-    
+/*BODY*/
+#panel-41-3-0-0.so-panel.widget h1 {
+    font-family: 'Righteous', cursive;
 }
 
 .panel-grid-cell .panel-last-child {

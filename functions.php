@@ -7,7 +7,10 @@ function powen_lite_child_enqueue() {
 
 function load_fonts() {
             wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Roboto');
-            wp_enqueue_style( 'googleFonts');
+            wp_enqueue_style('googleFonts');
+    
+            wp_register_style('googleFonts', 'https://fonts.googleapis.com/css?family=Righteous' );
+            wp_enqueue_style('googleFonts');
         }
     
     add_action('wp_print_styles', 'load_fonts');
