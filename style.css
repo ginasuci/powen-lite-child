@@ -38,11 +38,6 @@ i.fa:hover {
     box-shadow: none;
 }
 
-/*LOGO*/
-.widget {
-    background-color: transparent;
-}
-
 /*BODY*/
 #panel-41-3-0-0.so-panel.widget h1 {
     font-family: 'Righteous', cursive;
@@ -99,6 +94,10 @@ header.entry-header {
   margin-top: 40px;
 }
 
+#pg-41-1.panel-grid {
+    margin-left: -100px;
+    margin-right: -100px;
+}
 
 /*#SLIDER*/
 /*
@@ -140,6 +139,16 @@ article#post-79.post-79.page.type-page.status-publish.hentry .article-hentry {
     display: none
 };*/
 
+/*TESTIMONI*/
+.widget {
+    background-color: transparent;
+}
+
+#pg-41-4.panel-grid .siteorigin-panels-stretch.panel-row-style {
+    margin-top: -30px;
+    background-color: rgba(155, 19, 19, 0.8);
+}
+
 /*FOOTER*/
 .first.quarter.left.widget-area h3.widget-title,
 .second.quarter.widget-area h3.widget-title,
@@ -175,7 +184,7 @@ font-family: FontAwesome;
 font-style: normal;
 font-weight: normal;
 color: firebrick;
-font-size: 3em;
+font-size: 8em;
 line-height: 1;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
