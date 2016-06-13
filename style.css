@@ -94,9 +94,41 @@ header.entry-header {
   margin-top: 40px;
 }
 
+/*divider*/
+#pg-41-0.panel-grid {
+    padding-bottom: 50px;
+}
+
+#pg-41-2.panel-grid {
+    padding-top: 50px;
+}
+
+/*icon*/
 #pg-41-1.panel-grid {
     margin-left: -100px;
     margin-right: -100px;
+}
+
+#pg-41-1.panel-grid .sow-icon-fontawesome {
+    margin-left: -0.54em;
+}
+
+/*headline*/
+#pg-41-4.panel-grid .siteorigin-panels-stretch.panel-row-style {
+    margin-top: -30px;
+    margin-bottom: -70px;
+}
+
+/*description*/
+#pg-41-6.panel-grid .siteorigin-panels-stretch.panel-row-style,
+#pg-41-7.panel-grid .siteorigin-panels-stretch.panel-row-style {
+    margin-top: -30px;
+}
+
+/*post carousel*/
+#pg-41-10.panel-grid .siteorigin-panels-stretch.panel-row-style {
+    margin-bottom: -80px;
+    padding-bottom: 40px;
 }
 
 /*#SLIDER*/
@@ -116,7 +148,8 @@ header.entry-header {
 }
 */
 
-/*OURTEAM*/
+/*
+OURTEAM
 #sc_our_team.grid_circles .sc_team_member .sc_team_member_inner .sc_team_member_name,
 #sc_our_team.grid_circles .sc_team_member .sc_team_member_inner .sc_team_member_jobtitle {
     display: none;
@@ -133,20 +166,15 @@ header.entry-header {
 #pg-79-2.panel-grid .textwidget {
     margin-left: 48px;
 }
-
-/*
-article#post-79.post-79.page.type-page.status-publish.hentry .article-hentry {
-    display: none
-};*/
+*/
 
 /*TESTIMONI*/
 .widget {
     background-color: transparent;
 }
 
-#pg-41-4.panel-grid .siteorigin-panels-stretch.panel-row-style {
+#pg-41-9.panel-grid .siteorigin-panels-stretch.panel-row-style {
     margin-top: -30px;
-    background-color: rgba(155, 19, 19, 0.8);
 }
 
 /*FOOTER*/
