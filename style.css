@@ -38,12 +38,12 @@ i.fa:hover {
     box-shadow: none;
 }
 
-/*BODY*/
+/*FRONT BODY*/
 #panel-41-3-0-0.so-panel.widget h1 {
     font-family: 'Righteous', cursive;
 }
 
-.panel-grid-cell .panel-last-child {
+#pl-41 .panel-grid-cell .panel-last-child {
   margin-top: -52px;
 /*  margin-left: 0px;*/
   background-color: transparent;
@@ -58,8 +58,9 @@ i.fa:hover {
   display: none;
 }
 
-.widget-title {
-  margin-bottom: -20px;
+.sow-carousel-title h3.widget-title {
+/*  margin-bottom: -20px;*/
+    display: none;
 }
 
 .widget-area li {
@@ -79,7 +80,7 @@ h2.entry-title {
   margin-bottom: -20px;
 }
 
-.article-hentry {
+#post-41 .article-hentry  {
   background-color: transparent;
 /*  margin-top: -30px;*/
 }
@@ -127,6 +128,7 @@ header.entry-header {
 
 /*post carousel*/
 #pg-41-10.panel-grid .siteorigin-panels-stretch.panel-row-style {
+    background-color: rgba(0, 0, 0, 0.66);
     margin-bottom: -80px;
     padding-bottom: 40px;
 }
@@ -169,7 +171,7 @@ OURTEAM
 */
 
 /*TESTIMONI*/
-.widget {
+#panel-41-9-0.panel-grid-cell .widget {
     background-color: transparent;
 }
 
@@ -218,7 +220,19 @@ line-height: 1;
 -moz-osx-font-smoothing: grayscale;
 }
 
-/*CONTACT*/
+/*
+-------------
+CONTACT
+-------------
+*/
+
+#post-2 .article-hentry,
+#panel-2-0-0-0.so-panel.widget,
+#panel-2-1-0-0.so-panel.widget,
+#panel-2-1-1-0.so-panel.widget{
+    background-color: black;
+}
+
 #panel-2-0-0-0.so-panel h3.widget-title {
     font-size: 3em;
 }
@@ -226,12 +240,12 @@ line-height: 1;
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"], 
 .wpcf7 textarea {
-    background-color: transparent;
+/*    background-color: transparent;*/
     border-top: none;
     border-left: none;
     border-right: none;
     max-width: 90%;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid #3C3A3A;
     font-family: 'Roboto', sans-serif;
     font-style: bold;
 }
@@ -243,14 +257,15 @@ line-height: 1;
 input[type="text"],
 input[type="email"],
 textarea {
-    color: rgba(0, 0, 0, 0.53);
+    background-color: black;
     text-indent: 1rem;
+    color: #3C3A3A;
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    color: black
+    color: white;
 }
 
 textarea {
@@ -285,3 +300,9 @@ textarea {
     font-size: 1.25em;
     padding-top: 5px;
 }
+
+/*
+--------------
+BLOG
+--------------*/
+
