@@ -38,10 +38,12 @@ i.fa:hover {
     box-shadow: none;
 }
 
-/*FRONT BODY*/
-#panel-41-3-0-0.so-panel.widget h1 {
-    font-family: 'Righteous', cursive;
+.article-hentry {
+    background-color: rgba(255, 229, 156, 0.3);
 }
+
+/*FRONT BODY*/
+/*#panel-41-3-0-0.so-panel.widget h1*/
 
 #pl-41 .panel-grid-cell .panel-last-child {
   margin-top: -52px;
@@ -226,15 +228,21 @@ CONTACT
 -------------
 */
 
-#post-2 .article-hentry,
+
 #panel-2-0-0-0.so-panel.widget,
 #panel-2-1-0-0.so-panel.widget,
 #panel-2-1-1-0.so-panel.widget{
-    background-color: black;
+    background-color: #0C0C0C;
 }
 
 #panel-2-0-0-0.so-panel h3.widget-title {
     font-size: 3em;
+    font-family: "Cairo", sans-serif;
+    color: white;
+}
+
+#pgc-2-1-0 {
+    line-height: 1.975;
 }
 
 .wpcf7 input[type="text"],
@@ -245,8 +253,8 @@ CONTACT
     border-left: none;
     border-right: none;
     max-width: 90%;
-    border-bottom: 3px solid #3C3A3A;
-    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.66);
+    font-family: "Cairo", sans-serif;
     font-style: bold;
 }
 
@@ -257,9 +265,9 @@ CONTACT
 input[type="text"],
 input[type="email"],
 textarea {
-    background-color: black;
+    background-color: #0C0C0C;
     text-indent: 1rem;
-    color: #3C3A3A;
+    color: #696262;
 }
 
 input[type="text"]:focus,
