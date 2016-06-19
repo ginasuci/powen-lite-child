@@ -232,30 +232,29 @@ CONTACT
 #panel-2-0-0-0.so-panel.widget,
 #panel-2-1-0-0.so-panel.widget,
 #panel-2-1-1-0.so-panel.widget{
-    background-color: #0C0C0C;
+    background-color: rgba(255, 229, 156, 0.3);
 }
 
 #panel-2-0-0-0.so-panel h3.widget-title {
-    font-size: 3em;
+    font-size: 4em;
     font-family: "Cairo", sans-serif;
-    color: white;
+    color: #3F3D3D;
 }
 
 #pgc-2-1-0 {
-    line-height: 1.975;
+    line-height: 1.951;
 }
 
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"], 
 .wpcf7 textarea {
-/*    background-color: transparent;*/
+    background-color: rgba(255, 229, 156, 0.3);
     border-top: none;
     border-left: none;
     border-right: none;
     max-width: 90%;
     border-bottom: 3px solid rgba(255, 255, 255, 0.66);
     font-family: "Cairo", sans-serif;
-    font-style: bold;
 }
 
 .wpcf7 textarea {
@@ -265,7 +264,7 @@ CONTACT
 input[type="text"],
 input[type="email"],
 textarea {
-    background-color: #0C0C0C;
+    background-color: #rgba(255, 229, 156, 0.3);
     text-indent: 1rem;
     color: #696262;
 }
