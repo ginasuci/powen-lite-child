@@ -38,12 +38,7 @@ i.fa:hover {
     box-shadow: none;
 }
 
-.article-hentry {
-    background-color: rgba(255, 229, 156, 0.3);
-}
-
 /*FRONT BODY*/
-/*#panel-41-3-0-0.so-panel.widget h1*/
 
 #pl-41 .panel-grid-cell .panel-last-child {
   margin-top: -52px;
@@ -84,7 +79,6 @@ h2.entry-title {
 
 #post-41 .article-hentry  {
   background-color: transparent;
-/*  margin-top: -30px;*/
 }
 
 header.entry-header {
@@ -228,6 +222,14 @@ CONTACT
 -------------
 */
 
+#post-2 .article-hentry {
+    background-color: rgba(255, 229, 156, 0.3);
+}
+
+#pg-2-0.panel-grid,
+#pg-2-1.panel-grid {
+    margin-right: 8px;
+}
 
 #panel-2-0-0-0.so-panel.widget,
 #panel-2-1-0-0.so-panel.widget,
@@ -248,13 +250,17 @@ CONTACT
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"], 
 .wpcf7 textarea {
-    background-color: rgba(255, 229, 156, 0.3);
+    background-color: transparent;
     border-top: none;
     border-left: none;
     border-right: none;
-    max-width: 90%;
+    max-width: 92.5%;
     border-bottom: 3px solid rgba(255, 255, 255, 0.66);
     font-family: "Cairo", sans-serif;
+}
+
+.wpcf7-form .column-center {
+    width: 34%;
 }
 
 .wpcf7 textarea {
@@ -313,3 +319,13 @@ textarea {
 BLOG
 --------------*/
 
+#pl-74 .panel-grid-cell .panel-last-child {
+  margin-top: -52px;
+  background-color: transparent;
+/*  padding-bottom: 50px;*/
+}
+
+#pg-74-1.panel-grid .siteorigin-panels-stretch.panel-row-style {
+    margin-bottom: -80px;
+    padding-bottom: 40px;
+}
