@@ -38,6 +38,7 @@ i.fa:hover {
     box-shadow: none;
 }
 
+
 /*FRONT BODY*/
 
 #pl-41 .panel-grid-cell .panel-last-child {
@@ -146,26 +147,6 @@ header.entry-header {
 }
 */
 
-/*
-OURTEAM
-#sc_our_team.grid_circles .sc_team_member .sc_team_member_inner .sc_team_member_name,
-#sc_our_team.grid_circles .sc_team_member .sc_team_member_inner .sc_team_member_jobtitle {
-    display: none;
-}
-
-#sc_our_team .sc_team_member .sc_team_more img {
-  margin-top: -27px;
-}
-
-.panel-grid-cell .widget-title {
-  margin-bottom: 20px;
-}
-
-#pg-79-2.panel-grid .textwidget {
-    margin-left: 48px;
-}
-*/
-
 /*TESTIMONI*/
 #panel-41-9-0.panel-grid-cell .widget {
     background-color: transparent;
@@ -224,6 +205,7 @@ CONTACT
 
 #post-2 .article-hentry {
     background-color: rgba(255, 229, 156, 0.3);
+    margin-top: 30px;
 }
 
 #pg-2-0.panel-grid,
@@ -283,7 +265,7 @@ textarea:focus {
 
 textarea {
     padding: 8px 0px 0px;
-    line-height: 1.1;
+    line-height: 1.285;
 }
 
 .wpcf7 input[type="text"]:focus,
@@ -326,6 +308,35 @@ BLOG
 }
 
 #pg-74-1.panel-grid .siteorigin-panels-stretch.panel-row-style {
+    margin-bottom: -80px;
+    padding-bottom: 40px;
+}
+
+/*
+----------------
+GALLERY
+----------------*/
+
+#content.site-content #post-120 {
+  margin-top: -52px;
+}
+
+#post-120 .article-hentry {
+  background-color: transparent;
+}
+
+/*
+#pl-120 .panel-grid-cell .panel-last-child {
+  padding-top: 32px;
+  padding-bottom: 50px;
+}
+*/
+
+#pgc-120-0-0.panel-grid-cell .so-widget-sow-video {
+    padding-top: 40px;
+}
+
+#pg-120-0.panel-grid .siteorigin-panels-stretch.panel-row-style {
     margin-bottom: -80px;
     padding-bottom: 40px;
 }
